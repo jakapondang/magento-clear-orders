@@ -31,8 +31,8 @@ TRUNCATE `sales_flat_shipment_comment`;
 TRUNCATE `sales_flat_shipment_grid`;
 TRUNCATE `sales_flat_shipment_item`;
 TRUNCATE `sales_flat_shipment_track`;
-TRUNCATE `sales_invoiced_aggregated`;            # ??
-TRUNCATE `sales_invoiced_aggregated_order`;        # ??
+TRUNCATE `sales_invoiced_aggregated`;          
+TRUNCATE `sales_invoiced_aggregated_order`;      
 TRUNCATE `log_quote`;
  
 ALTER TABLE `sales_flat_creditmemo_comment` AUTO_INCREMENT=1;
@@ -98,7 +98,7 @@ TRUNCATE `customer_entity_varchar`;
 TRUNCATE `tag`;
 TRUNCATE `tag_relation`;
 TRUNCATE `tag_summary`;
-TRUNCATE `tag_properties`;            ## CHECK ME
+TRUNCATE `tag_properties`;         
 TRUNCATE `wishlist`;
 TRUNCATE `log_customer`;
  
